@@ -1,0 +1,77 @@
+    <section class="page-hero">
+      <img class="page-bg" src="assets/img/page-header.jpg" alt="">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="crumbs"><a href="index.html">Home</a><span class="sep">›</span><span>Contact</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="split-text reveal">
+            <span class="eyebrow">Get in Touch</span>
+            <h2>Let's Plan Your Move</h2>
+            <p class="text-muted">Call us, message us on WhatsApp, or fill in the enquiry form — our team responds fast with a free, no-obligation quote.</p>
+            <div class="contact-info" style="margin-top:26px;">
+              <div class="ci"><div class="ic">{{IC_PHONE}}</div><div><h4>Call Us</h4><p><a href="tel:{{PHONE}}">{{PHONE_DISP}}</a> &nbsp;·&nbsp; <a href="tel:{{PHONE2}}">{{PHONE2_DISP}}</a></p></div></div>
+              <div class="ci"><div class="ic">{{IC_WA}}</div><div><h4>WhatsApp</h4><p><a href="https://wa.me/{{WA}}?text=Hi%2C%20I%20need%20a%20moving%20quote." target="_blank" rel="noopener">Chat with us on WhatsApp</a></p></div></div>
+              <div class="ci"><div class="ic">{{IC_MAIL}}</div><div><h4>Email</h4><p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p></div></div>
+              <div class="ci"><div class="ic">{{IC_PIN}}</div><div><h4>Office Address</h4><p>{{ADDR}}</p></div></div>
+              <div class="ci"><div class="ic">{{IC_CLOCK}}</div><div><h4>Working Hours</h4><p>{{HOURS}}</p></div></div>
+            </div>
+            <div class="hero-actions" style="margin-top:26px;">
+              <a class="btn btn-primary" href="tel:{{PHONE}}">{{IC_PHONE}} Call Now</a>
+              <a class="btn btn-wa" href="https://wa.me/{{WA}}?text=Hi%2C%20I%20need%20a%20moving%20quote." target="_blank" rel="noopener">{{IC_WA}} WhatsApp</a>
+            </div>
+          </div>
+
+          <div class="quote-card reveal">
+            <h3>Send an Enquiry</h3>
+            <p class="sub">We'll get back to you within minutes.</p>
+            <form data-enquiry="whatsapp">
+              <div class="field"><label>Full Name</label><input type="text" name="name" placeholder="Your name" required></div>
+              <div class="field-row">
+                <div class="field"><label>Phone</label><input type="tel" name="phone" placeholder="Mobile number" required></div>
+                <div class="field"><label>Email</label><input type="email" name="email" placeholder="you@email.com"></div>
+              </div>
+              <div class="field"><label>Service Needed</label>
+                <select name="service" required>
+                  <option value="">Select a service</option>
+                  <option>Household Shifting</option>
+                  <option>Office Relocation</option>
+                  <option>Car Transportation</option>
+                  <option>Bike Transportation</option>
+                  <option>Packing &amp; Unpacking</option>
+                  <option>Storage Service</option>
+                </select>
+              </div>
+              <div class="field-row">
+                <div class="field"><label>Moving From</label><input type="text" name="from" placeholder="City / area"></div>
+                <div class="field"><label>Moving To</label><input type="text" name="to" placeholder="City / area"></div>
+              </div>
+              <div class="field"><label>Preferred Date</label><input type="date" name="date"></div>
+              <div class="field"><label>Details</label><textarea name="message" placeholder="Tell us about your move (items, floors, lift, etc.)"></textarea></div>
+              <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <button class="btn btn-wa" type="submit" style="flex:1;justify-content:center;" onclick="this.form.setAttribute('data-enquiry','whatsapp')">{{IC_WA}} Send via WhatsApp</button>
+                <button class="btn btn-ghost" type="submit" formnovalidate onclick="this.form.setAttribute('data-enquiry','email')">{{IC_MAIL}} Email</button>
+              </div>
+              <p class="form-note text-muted" style="display:none;font-size:13px;margin:12px 0 0;"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight soft">
+      <div class="container">
+        <div class="section-head reveal" style="margin-bottom:28px;">
+          <span class="eyebrow">Find Us</span>
+          <h2>Our Location</h2>
+        </div>
+        <!-- TODO: replace {{MAP}} in build.py with your exact Google Maps embed URL -->
+        <div class="map-embed reveal">
+          <iframe src="{{MAP}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="R K Packers and Movers location"></iframe>
+        </div>
+      </div>
+    </section>

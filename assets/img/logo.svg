@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" width="620" height="560" role="img" aria-label="R K Packers &amp; Movers">
+  <g font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="330" letter-spacing="-10">
+    <text x="318" y="352" fill="#e11f26" text-anchor="start">K</text>
+    <g transform="translate(304,0) scale(-1,1)">
+      <text x="0" y="352" fill="#16268c" text-anchor="start">R</text>
+    </g>
+  </g>
+  <rect x="40" y="410" width="540" height="118" rx="28" fill="#2f6fe0"/>
+  <text x="310" y="490" text-anchor="middle" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="74" fill="#ffffff" textLength="470" lengthAdjust="spacingAndGlyphs">Packers &amp; Movers</text>
+</svg>

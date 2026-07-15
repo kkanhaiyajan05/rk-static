@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="R K">
+  <g font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="236" letter-spacing="-4">
+    <text x="250" y="330" fill="#e11f26" text-anchor="start">K</text>
+    <g transform="translate(262,0) scale(-1,1)">
+      <text x="0" y="330" fill="#16268c" text-anchor="start">R</text>
+    </g>
+  </g>
+</svg>
