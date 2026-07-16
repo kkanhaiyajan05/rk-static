@@ -26,10 +26,10 @@ BIZ = {
     "slogan": "Your Peace of Mind, Our Responsibility",
     "phone": "+917003827993",
     "phone_disp": "+91 70038 27993",
-    "phone2": "+919831940694",
-    "phone2_disp": "+91 98319 40694",
-    "phone3": "+919831931413",
-    "phone3_disp": "+91 98319 31413",
+    "phone2": "+919831931413",
+    "phone2_disp": "+91 98319 31413",
+    "phone3": "+919831940694",
+    "phone3_disp": "+91 98319 40694",
     "wa": "917003827993",
     "email": "rkpackers6613@gmail.com",
     "addr": "102/1, N.S.C. Bose Road, Naktala, Kolkata 700047 (Near Naktala High School)",
@@ -263,7 +263,7 @@ def header(active):
     <div class="container">
       <a class="brand" href="index.html">
         <img class="mark" src="assets/img/logo-mark.svg" alt="R K Packers &amp; Movers logo" width="48" height="48">
-        <span class="bname">R K Packers &amp; Movers<span>10+ Years of Trust · Kolkata</span></span>
+        <span class="bname">R K Packers &amp; Movers<span>20+ Years of Trust · Kolkata</span></span>
       </a>
       <button class="nav-toggle" aria-label="Open menu">{IC['menu']}</button>
       <nav class="nav" aria-label="Primary">
@@ -406,6 +406,7 @@ def page_shell(slug, title, desc, content, extra_head=""):
   <meta property="og:image" content="{og_img}">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -450,7 +451,7 @@ PAGES = [
     ("index", "R K Packers &amp; Movers — Best Packers and Movers in Kolkata",
      "R K Packers & Movers is a trusted packers and movers company in Kolkata offering safe household shifting, office relocation, car & bike transport, packing and storage services across India."),
     ("about", "About Us — R K Packers &amp; Movers Kolkata",
-     "Learn about R K Packers & Movers — 10+ years of trusted, professional moving services in Kolkata with trained staff, quality packing and pan-India reach."),
+     "Learn about R K Packers & Movers — 20+ years of trusted, professional moving services in Kolkata with trained staff, quality packing and pan-India reach."),
     ("services", "Our Services — Packers and Movers in Kolkata | R K Packers &amp; Movers",
      "Explore R K Packers & Movers services: household shifting, office relocation, car & bike transportation, packing & unpacking and secure storage across India."),
     ("household-shifting", "Household Shifting Services in Kolkata | R K Packers &amp; Movers",
