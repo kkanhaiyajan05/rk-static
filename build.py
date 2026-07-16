@@ -262,7 +262,6 @@ def header(active):
   <header class="header">
     <div class="container">
       <a class="brand" href="index.html">
-        <img class="mark" src="assets/img/logo-mark.png" alt="R K Packers &amp; Movers logo" width="48" height="48">
         <span class="bname">R K Packers &amp; Movers<span>20+ Years of Trust · Kolkata</span></span>
       </a>
       <button class="nav-toggle" aria-label="Open menu">{IC['menu']}</button>
