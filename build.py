@@ -262,7 +262,7 @@ def header(active):
   <header class="header">
     <div class="container">
       <a class="brand" href="index.html">
-        <img class="mark" src="assets/img/logo-mark.svg" alt="R K Packers &amp; Movers logo" width="48" height="48">
+        <img class="mark" src="assets/img/logo-mark.png" alt="R K Packers &amp; Movers logo" width="48" height="48">
         <span class="bname">R K Packers &amp; Movers<span>20+ Years of Trust · Kolkata</span></span>
       </a>
       <button class="nav-toggle" aria-label="Open menu">{IC['menu']}</button>
@@ -301,7 +301,7 @@ def footer():
     <div class="container">
       <div class="footer-grid">
         <div>
-          <div class="fbrand"><span class="flogo"><img src="assets/img/logo.svg" alt="R K Packers &amp; Movers logo"></span></div>
+          <div class="fbrand"><span class="flogo"><img src="assets/img/r-k-logo.jpeg" alt="R K Packers &amp; Movers logo"></span></div>
           <p class="fdesc">{BIZ['tagline']} — {BIZ['slogan']}. Trusted packers and movers in Kolkata for household shifting, office relocation and vehicle transport across India.</p>
           <div class="foot-badges">
             <span class="fbadge">✓ GST Registered</span>
@@ -351,7 +351,7 @@ def jsonld():
   "@type": "MovingCompany",
   "name": "{BIZ['name']}",
   "image": "{BIZ['url']}/assets/img/truck-1.jpg",
-  "logo": "{BIZ['url']}/assets/img/logo.png",
+  "logo": "{BIZ['url']}/assets/img/r-k-logo.jpeg",
   "@id": "{BIZ['url']}",
   "url": "{BIZ['url']}",
   "telephone": "{BIZ['phone']}",
@@ -407,7 +407,6 @@ def page_shell(slug, title, desc, content, extra_head=""):
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
